@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo2.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Finds | Registration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+            flex-direction: column;
+            background: url('back.jpg') no-repeat center center/cover;
+        }
+
+        .login-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            width: 500px; 
+            height:600px;
+            text-align: center;
+        }
+
+        h1 {
+            /* margin-top:10px;
+            margin-bottom: 10px; */
+            color: #364051; /* Dark text color */
+        }
+
+        label {
+            display: block;
+            margin-top: 0px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        select {
+            width: 100%; /* Full width */
+            padding: 10px;
+            margin: 0px 0 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            transition: border-color 0.3s; /* Transition for focus effect */
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            border-color: #4a5568; /* Dark blue border on focus */
+            outline: none; /* Remove outline */
+        }
+
+        button {
+            width: 100%; /* Full width for button */
+            padding: 10px;
+            background-color:#4a5568; 
+            color: white; /* White text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s; /* Transition for hover effect */
+        }
+
+        button:hover {
+            background-color: #4a5568; /* Darker blue on hover */
+        }
+
+        textarea {
+            height: 80px; /* Fixed height for textarea */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Foodie Finds</h1>
+
+        <form action="register_process.php" method="POST">
+            <!-- <label><b>User ID</b></label>
+            <input type="text" name="user_id" placeholder="Enter User ID" required> -->
+            
+            <label><b>Fullname</b></label>
+            <input type="text" name="fullname" placeholder="Enter Fullname" required>
+            
+            <label><b>Email ID</b></label>
+            <input type="email" name="email" placeholder="Enter Email ID" required>
+
+            <label><b>Phone Number</b></label>
+            <input type="text" name="phone_number" placeholder="Enter Phone Number" required>
+            
+            <label><b>Password</b></label>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            
+            <label><b>Confirm Password</b></label>
+            <input type="password" name="confirm_password" placeholder="Enter Confirm Password" required>
+            
+            <label><b>Address</b></label>
+            <textarea name="address" placeholder="Enter Address" required></textarea>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+1 KB = __________ Bytes
+A) 8
+B) 1000
+C) 1024
+D) 256
+ANSWER: C
+1byte=____ bits
+A) 2
+B) 4
+C) 8
+D) 10
+ANSWER: C
+A memory buffer used to accommodate a speed differential is called ____________
+A) stack pointer
+B) cache
+C) accumulator
+D) disk buffer
+ANSWER: B
+A process is an instance of _______ program.
+A) waiting
+B) executing
+C) terminated
+D) halted
+ANSWER: B
+CPU fetches the instruction from memory according to the value of ____________
+A) program counter
+B) status register
+C) instruction register
+D) program status word
+ANSWER: A
+Each process is identified by a unique integer called ______
+A) PID
+B) PPID
+C) TID
+D) PTID
+ANSWER: A
+Electrically Erasable Programmable Read-Only Memory (EEPROM), is a special type of PROM that can be erased by exposing it to an ______________
+A) ultraviolet light
+B) sun light
+C) electrical charge
+D) None of the mentioned
+ANSWER: C
+Erasable Programmable Read-Only Memory (EPROM), is a special type of PROM that can be erased by exposing it to __________
+A) ultraviolet light
+B) sun light
+C) electrical charge
+D) None of the mentioned
+ANSWER: A
+For every process there is a __________
+A) page table
+B) copy of page table
+C) pointer to page table
+D) All of the mentioned
+ANSWER: A
+For interrupting a command,we can use _____
+A) ctrl-f
+B) esc
+C) ctrl-h
+D) ctrl-c
+ANSWER: D
+Full form of BIOS is ___________
+A) Best Input Output System
+B) Best Input Output Star
+C) Basic Input Output Star
+D) Basic Input Output System
+ANSWER: D
+GB stans for
+A) Gigabyte
+B) Gigabit
+C) Greaterbyte
+D) Gbyte
+ANSWER: A
+Operating System maintains the page table for ____________
+A) each process
+B) each thread
+C) each instruction
+D) each address
+ANSWER: A
+RAM is ______________ memory
+A) volatile
+B) non volatile
+C) Both A and B
+D) None of the mentioned
+ANSWER: A
+RAM stands for _________
+A) random always memory
+B) rarely access memory
+C) read access memory
+D) random access memory
+ANSWER: D
+ROM is ______________ memory
+A) volatile
+B) non volatile
+C) Both A and B
+D) None of the mentioned
+ANSWER: B
+ROM stands for ____________
+A) Random Only Memory
+B) Read Only Memory
+C) Read Own Memory
+D) None of the mentioned
+ANSWER: B
+The ___________ swaps processes in and out of the memory.
+A) Memory manager
+B) CPU
+C) HDD
+D) User
+ANSWER: A
+The main memory accommodates ____________
+A) operating system
+B) CPU
+C) keyboard
+D) None of the mentioned
+ANSWER: A
+What unit is used to measure the capacity of RAM?
+A) Hertz
+B) Meg
+C) Byte
+D) Cycle
+ANSWER: C
+
+
